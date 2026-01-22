@@ -1,0 +1,366 @@
+Started by user venkatan@maveric-systems.com
+Rebuilds build #18
+Loading library kony-common@master
+FSSCM.checkout /var/lib/jenkins/libraries/kony-common to /var/lib/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp@libs/3b3471213e8f4858dbc41ec03b8edb5066ee2d9018cbc04b5bc487a024758347
+FSSCM.clearWorkspace...
+New file: src/com/kony/appfactory/helper/CustomHookHelper.groovy
+New file: src/com/kony/appfactory/helper/EmailTemplateHelper.groovy
+New file: src/com/kony/appfactory/helper/BuildHelper.groovy
+New file: src/com/kony/appfactory/helper/AppFactoryException.groovy
+New file: src/com/kony/appfactory/helper/CredentialsHelper.groovy
+New file: src/com/kony/appfactory/helper/ArtifactHelper.groovy
+New file: src/com/kony/appfactory/helper/ConfigFileHelper.groovy
+New file: src/com/kony/appfactory/helper/NotificationsHelper.groovy
+New file: src/com/kony/appfactory/helper/JsonHelper.groovy
+New file: src/com/kony/appfactory/helper/CustomBuildConfigHelper.groovy
+New file: src/com/kony/appfactory/helper/AwsDeviceFarmHelper.groovy
+New file: src/com/kony/appfactory/helper/EmailBuilder.groovy
+New file: src/com/kony/appfactory/helper/CloudBuildHelper.groovy
+New file: src/com/kony/appfactory/helper/FabricHelper.groovy
+New file: src/com/kony/appfactory/helper/TestsHelper.groovy
+New file: src/com/kony/appfactory/helper/ValidationHelper.groovy
+New file: src/com/kony/appfactory/helper/AwsHelper.groovy
+New file: src/com/kony/appfactory/enums/Status.groovy
+New file: src/com/kony/appfactory/enums/BuildType.groovy
+New file: src/com/kony/appfactory/enums/BuildPhase.groovy
+New file: src/com/kony/appfactory/enums/PlatformType.groovy
+New file: src/com/kony/appfactory/enums/FormFactor.groovy
+New file: src/com/kony/appfactory/enums/ChannelType.groovy
+New file: src/com/kony/appfactory/sanitizers/RegexSanitizer.groovy
+New file: src/com/kony/appfactory/sanitizers/TextSanitizer.groovy
+New file: src/com/kony/appfactory/sanitizers/RemoveLinesSanitizer.groovy
+New file: src/com/kony/appfactory/fabricTests/RunTests.groovy
+New file: src/com/kony/appfactory/fabricTests/CucumberTests.groovy
+New file: src/com/kony/appfactory/fabricTests/FacadeTests.groovy
+New file: src/com/kony/appfactory/fabricTests/KarateTests.groovy
+New file: src/com/kony/appfactory/qualitychecks/CodeScanners.groovy
+New file: src/com/kony/appfactory/visualizer/BuildStatus.groovy
+New file: src/com/kony/appfactory/visualizer/Facade.groovy
+New file: src/com/kony/appfactory/visualizer/channels/IosChannel.groovy
+New file: src/com/kony/appfactory/visualizer/channels/WindowsChannel.groovy
+New file: src/com/kony/appfactory/visualizer/channels/AndroidChannel.groovy
+New file: src/com/kony/appfactory/visualizer/channels/AllChannels.groovy
+New file: src/com/kony/appfactory/visualizer/channels/DesktopWebChannel.groovy
+New file: src/com/kony/appfactory/visualizer/channels/Channel.groovy
+New file: src/com/kony/appfactory/visualizer/channels/WebChannel.groovy
+New file: src/com/kony/appfactory/visualizer/TestAutomation.groovy
+New file: src/com/kony/appfactory/visualizer/CustomBuildConfig.groovy
+New file: src/com/kony/appfactory/visualizer/customhooks/CustomHook.groovy
+New file: src/com/kony/appfactory/microservices/ConfigureMS.groovy
+New file: src/com/kony/appfactory/annotations/Path.groovy
+New file: src/com/kony/appfactory/custompipeline/CustomPipeline.groovy
+New file: src/com/kony/appfactory/custombuildconfig/CustomOperations.groovy
+New file: src/com/kony/appfactory/database/Flyway.groovy
+New file: src/com/kony/appfactory/tests/channels/RunTests.groovy
+New file: src/com/kony/appfactory/tests/channels/DesktopWebTests.groovy
+New file: src/com/kony/appfactory/tests/channels/NativeAWSDeviceFarmTests.groovy
+New file: src/com/kony/appfactory/tests/FacadeTests.groovy
+New file: src/com/kony/appfactory/dto/buildstatus/PlatformsDTO.groovy
+New file: src/com/kony/appfactory/dto/buildstatus/BuildStatusDTO.groovy
+New file: src/com/kony/appfactory/dto/visualizer/ProjectPropertiesDTO.groovy
+New file: src/com/kony/appfactory/dto/tests/Device.groovy
+New file: src/com/kony/appfactory/dto/tests/DetailedNativeResults.groovy
+New file: src/com/kony/appfactory/dto/tests/NativeTestsDTO.groovy
+New file: src/com/kony/appfactory/dto/tests/ResultsCount.groovy
+New file: src/com/kony/appfactory/fabric/Facade.groovy
+New file: src/com/kony/appfactory/fabric/Fabric.groovy
+New file: version.txt
+New file: vars/when.txt
+New file: vars/echoCustom.txt
+New file: vars/catchErrorCustom.groovy
+New file: vars/when.groovy
+New file: vars/catchErrorCustom.txt
+New file: vars/echoCustom.groovy
+New file: vars/shellCustom.txt
+New file: vars/loadLibraryResource.groovy
+New file: vars/callStageCustom.txt
+New file: vars/loadLibraryResource.txt
+New file: vars/shellCustom.groovy
+New file: vars/callStageCustom.groovy
+New file: version.html
+New file: README.md
+New file: resources/com/kony/appfactory/feature.xml.downloader/package.json
+New file: resources/com/kony/appfactory/feature.xml.downloader/readme.txt
+New file: resources/com/kony/appfactory/feature.xml.downloader/downloadFeaturesXml.js
+New file: resources/com/kony/appfactory/email/templates/KonyBase.template
+New file: resources/com/kony/appfactory/visualizer/ivysettings.xml
+New file: resources/com/kony/appfactory/visualizer/property.xml
+New file: resources/com/kony/appfactory/visualizer/apple_orig.plist
+New file: resources/com/kony/appfactory/visualizer/appfactoryPostCompileTaskForAabSupport.xml
+New file: resources/com/kony/appfactory/visualizer/ci-property.xml
+New file: resources/com/kony/appfactory/jasmineinvoker/web/AFWSClient.java
+New file: resources/com/kony/appfactory/jasmineinvoker/web/afmodulepom.xml
+New file: resources/com/kony/appfactory/jasmineinvoker/web/package.json
+New file: resources/com/kony/appfactory/jasmineinvoker/web/TestNG.xml
+New file: resources/com/kony/appfactory/jasmineinvoker/web/WebScreenshotComparison.js
+New file: resources/com/kony/appfactory/jasmineinvoker/web/server.js
+New file: resources/com/kony/appfactory/jasmineinvoker/web/InvokeJasmineTests.java
+New file: resources/com/kony/appfactory/jasmineinvoker/web/AFCrossAppClient.java
+New file: resources/com/kony/appfactory/jasmineinvoker/web/parentpom.xml
+New file: resources/com/kony/appfactory/jasmineinvoker/web/pom.xml
+New file: resources/com/kony/appfactory/jasmineinvoker/web/appfactoryReporter.js
+New file: resources/com/kony/appfactory/jasmineinvoker/native/AFWSClient.java
+New file: resources/com/kony/appfactory/jasmineinvoker/native/afmodulepom.xml
+New file: resources/com/kony/appfactory/jasmineinvoker/native/package.json
+New file: resources/com/kony/appfactory/jasmineinvoker/native/TestNG.xml
+New file: resources/com/kony/appfactory/jasmineinvoker/native/zip.xml
+New file: resources/com/kony/appfactory/jasmineinvoker/native/server.js
+New file: resources/com/kony/appfactory/jasmineinvoker/native/InvokeJasmineTests.java
+New file: resources/com/kony/appfactory/jasmineinvoker/native/AFCrossAppClient.java
+New file: resources/com/kony/appfactory/jasmineinvoker/native/parentpom.xml
+New file: resources/com/kony/appfactory/jasmineinvoker/native/pom.xml
+New file: resources/com/kony/appfactory/jasmineinvoker/native/NativeScreenshotComparison.js
+New file: resources/com/kony/appfactory/jasmineinvoker/native/appfactoryReporter.js
+New file: resources/com/kony/appfactory/configurations/common.properties
+New file: resources/com/kony/appfactory/configurations/Fastfile
+New file: resources/com/kony/appfactory/configurations/KonyYamlTestSpec.template
+New file: resources/com/kony/appfactory/codeCoverage/reporter.js
+
+FSSCM.check completed in 3.251 seconds
+[Pipeline] Start of Pipeline
+[Pipeline] libraryResource
+[Pipeline] libraryResource
+[Pipeline] node
+Running on a100000169001L1-LinuxTestAgent in /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp
+[Pipeline] {
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] isUnix
+[Pipeline] timestamps
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Validate build params)
+[Pipeline] libraryResource
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] cleanWs
+[2026-01-22T10:43:47.576Z] [WS-CLEANUP] Deleting project workspace...
+[2026-01-22T10:43:47.576Z] [WS-CLEANUP] Deferred wipeout is used...
+[2026-01-22T10:43:47.630Z] [WS-CLEANUP] done
+[Pipeline] stage
+[Pipeline] { (Source checkout)
+[Pipeline] libraryResource
+[Pipeline] retry
+[Pipeline] {
+[Pipeline] checkout
+[2026-01-22T10:43:48.325Z] The recommended git tool is: NONE
+[2026-01-22T10:43:48.346Z] using credential ee457705-2db2-4766-8d07-16fb219767d3
+[2026-01-22T10:43:48.424Z] Cloning the remote Git repository
+[2026-01-22T10:43:48.483Z] Cloning repository https://gitlab.com/muchbetter-group/groups/maveric-systems-temenos/appfactory-sample-app.git
+[2026-01-22T10:43:48.484Z]  > git init /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp # timeout=10
+[2026-01-22T10:43:48.524Z] Fetching upstream changes from https://gitlab.com/muchbetter-group/groups/maveric-systems-temenos/appfactory-sample-app.git
+[2026-01-22T10:43:48.524Z]  > git --version # timeout=10
+[2026-01-22T10:43:48.526Z]  > git --version # 'git version 2.40.1'
+[2026-01-22T10:43:48.526Z] using GIT_ASKPASS to set credentials GitLab_Credentials
+[2026-01-22T10:43:48.540Z]  > git fetch --tags --force --progress -- https://gitlab.com/muchbetter-group/groups/maveric-systems-temenos/appfactory-sample-app.git +refs/heads/*:refs/remotes/origin/* # timeout=30
+[2026-01-22T10:44:02.498Z] Avoid second fetch
+[2026-01-22T10:44:02.583Z] Checking out Revision 724b913c944856849f4d1814f8b3f3229ed3115b (origin/mbb_DEV_Branch220126)
+[2026-01-22T10:44:02.583Z] Enabling Git LFS pull
+[2026-01-22T10:44:02.301Z]  > git config remote.origin.url https://gitlab.com/muchbetter-group/groups/maveric-systems-temenos/appfactory-sample-app.git # timeout=10
+[2026-01-22T10:44:02.435Z]  > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+[2026-01-22T10:44:02.499Z]  > git rev-parse origin/mbb_DEV_Branch220126^{commit} # timeout=10
+[2026-01-22T10:44:02.657Z]  > git config core.sparsecheckout # timeout=10
+[2026-01-22T10:44:02.690Z]  > git checkout -f 724b913c944856849f4d1814f8b3f3229ed3115b # timeout=10
+[2026-01-22T10:44:04.066Z]  > git config --get remote.origin.url # timeout=10
+[2026-01-22T10:44:04.187Z] using GIT_ASKPASS to set credentials GitLab_Credentials
+[2026-01-22T10:44:04.228Z]  > git lfs pull origin # timeout=10
+[2026-01-22T10:44:04.506Z] Commit message: "Delete t24common.jar"
+[2026-01-22T10:44:04.524Z]  > git rev-list --no-walk 724b913c944856849f4d1814f8b3f3229ed3115b # timeout=10
+[Pipeline] }
+[Pipeline] // retry
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Check PreBuild Hook Points)
+[Pipeline] echo
+[2026-01-22T10:44:05.262Z] [0;32m [INFO] Trying to fetch PRE_BUILD ALL hooks.  [0m
+[Pipeline] writeFile
+[Pipeline] readJSON
+[Pipeline] echo
+[2026-01-22T10:44:05.719Z] [0;32m [INFO] Hooks found in PRE_BUILD stage for ALL channel. List: [SampleApp1] [0m
+[Pipeline] stage
+[Pipeline] { (Clean Hook Environment)
+[Pipeline] dir
+[2026-01-22T10:44:06.066Z] Running in /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook
+[Pipeline] {
+[Pipeline] deleteDir
+[Pipeline] }
+[Pipeline] // dir
+[Pipeline] sh
+[2026-01-22T10:44:06.987Z] + set +ex
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Download Hook Script)
+[Pipeline] dir
+[2026-01-22T10:44:07.433Z] Running in /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook
+[Pipeline] {
+[Pipeline] withAWS
+[2026-01-22T10:44:07.782Z] Setting AWS region eu-west-1 
+[2026-01-22T10:44:07.802Z]  Requesting assume role
+[2026-01-22T10:44:07.822Z] Assuming role ARN is arn:aws:iam::005154144565:role/a100000169001-RoleJenkins-GIB5Y86K0IV5Assumed role arn:aws:sts::005154144565:assumed-role/a100000169001-RoleJenkins-GIB5Y86K0IV5/Jenkins-SampleApp-Fabric-Builds-buildFabricApp-19 with id AROAQCMZWAE27HZT74S7E:Jenkins-SampleApp-Fabric-Builds-buildFabricApp-19 
+[Pipeline] {
+[Pipeline] s3Download
+[2026-01-22T10:44:08.130Z] Downloading s3://tc-a100000169001-builds/100000169/SampleApp/CustomHooks/Fabric/PRE_BUILD_STEP/SampleApp1/1/Hook.zip to file:/home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/Hook.zip 
+[2026-01-22T10:44:08.344Z]  Download complete
+[Pipeline] }
+[Pipeline] // withAWS
+[Pipeline] }
+[2026-01-22T10:44:08.342Z] Finished: Downloading from tc-a100000169001-builds/100000169/SampleApp/CustomHooks/Fabric/PRE_BUILD_STEP/SampleApp1/1/Hook.zip
+[Pipeline] // dir
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Extract Hook Archive)
+[Pipeline] dir
+[2026-01-22T10:44:09.209Z] Running in /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook
+[Pipeline] {
+[Pipeline] unzip
+[2026-01-22T10:44:09.429Z] Extracting from /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/Hook.zip
+[2026-01-22T10:44:09.430Z] Extracting: build.xml -> /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/build.xml
+[2026-01-22T10:44:09.430Z] Extracting: ReadDirectory.sh -> /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/ReadDirectory.sh
+[2026-01-22T10:44:09.430Z] Extracted: 2 files
+[Pipeline] }
+[Pipeline] // dir
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Prepare Environment for Run)
+[Pipeline] dir
+[2026-01-22T10:44:10.205Z] Running in /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws
+[Pipeline] {
+[Pipeline] sh
+[2026-01-22T10:44:11.161Z] + set +xe
+[Pipeline] sh
+[2026-01-22T10:44:11.711Z] + set +xe
+[Pipeline] sh
+[2026-01-22T10:44:12.260Z] + set +xe
+[Pipeline] sh
+[2026-01-22T10:44:12.832Z] + set +xe
+[Pipeline] }
+[Pipeline] // dir
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Run SampleApp1)
+[Pipeline] echo
+[2026-01-22T10:44:13.459Z] [0;32m [INFO] Hook execution for SampleApp1 hook is being initiated... [0m
+[Pipeline] build
+[2026-01-22T10:44:13.707Z] Scheduling project: SampleApp » Fabric » CustomHooks » PRE_BUILD » SampleApp1
+[2026-01-22T10:44:19.939Z] Starting building: SampleApp » Fabric » CustomHooks » PRE_BUILD » SampleApp1 #13
+[2026-01-22T10:44:38.867Z] Build SampleApp » Fabric » CustomHooks » PRE_BUILD » SampleApp1 #13 completed: FAILURE
+[Pipeline] statspublish
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // timestamps
+[Pipeline] echo
+[0;31m [ERROR] Build is completed for the Hook SampleApp1. Hook build status: FAILURE.Since Hook setting is set with Propagate_Build_Status flag as true, exiting the build... [0m
+[Pipeline] step
+[Pipeline] isUnix
+[Pipeline] cleanWs
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] done
+[Pipeline] dir
+Running in /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fabricMustHaves
+[Pipeline] {
+[Pipeline] writeFile
+[Pipeline] writeFile
+[Pipeline] isUnix
+[Pipeline] isUnix
+[Pipeline] sh
++ env
+[Pipeline] writeFile
+[Pipeline] writeFile
+[Pipeline] isUnix
+[Pipeline] isUnix
+[Pipeline] dir
+Running in /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/CustomHooks
+[Pipeline] {
+[Pipeline] sh
++ set +xe
+[Pipeline] }
+[Pipeline] // dir
+[Pipeline] }
+[Pipeline] // dir
+[Pipeline] dir
+Running in /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp
+[Pipeline] {
+[Pipeline] zip
+Compress /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fabricMustHaves to /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fabricMustHaves_19.zip
+Compressed 5 entries.
+[Pipeline] fileExists
+[Pipeline] dir
+Running in /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp
+[Pipeline] {
+[Pipeline] withStorageEnv
+Setting AWS region eu-west-1 
+ Requesting assume role
+Assuming role ARN is arn:aws:iam::005154144565:role/a100000169001-RoleJenkins-GIB5Y86K0IV5Assumed role arn:aws:sts::005154144565:assumed-role/a100000169001-RoleJenkins-GIB5Y86K0IV5/Jenkins-SampleApp-Fabric-Builds-buildFabricApp-19 with id AROAQCMZWAE27HZT74S7E:Jenkins-SampleApp-Fabric-Builds-buildFabricApp-19 
+ [Pipeline] {
+[Pipeline] uploadArtifact
+Uploading file:/home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fabricMustHaves_19.zip to s3://tc-a100000169001-builds/100000169/SampleApp/Builds/SampleApp/ 
+Upload complete
+[Pipeline] }
+[Pipeline] // withStorageEnv
+[Pipeline] statspublish
+[Pipeline] }
+[Pipeline] // dir
+[Pipeline] echo
+[0;32m [INFO] fabricMustHaves_19.zip published successfully. [0m
+Finished: Uploading to tc-a100000169001-builds/100000169/SampleApp/Builds/SampleApp/fabricMustHaves_19.zip
+[Pipeline] }
+[Pipeline] // dir
+[Pipeline] echo
+[0;32m [INFO] Notifying build results.. [0m
+[Pipeline] libraryResource
+[Pipeline] writeFile
+[Pipeline] pwd
+[Pipeline] dir
+Running in /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp
+[Pipeline] {
+[Pipeline] withStorageEnv
+Setting AWS region eu-west-1 
+ Requesting assume role
+Assuming role ARN is arn:aws:iam::005154144565:role/a100000169001-RoleJenkins-GIB5Y86K0IV5Assumed role arn:aws:sts::005154144565:assumed-role/a100000169001-RoleJenkins-GIB5Y86K0IV5/Jenkins-SampleApp-Fabric-Builds-buildFabricApp-19 with id AROAQCMZWAE27HZT74S7E:Jenkins-SampleApp-Fabric-Builds-buildFabricApp-19 
+ [Pipeline] {
+[Pipeline] uploadArtifact
+Uploading file:/home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/buildResults-FAIL.html to s3://tc-a100000169001-builds/100000169/SampleApp/Builds/buildFabricApp/19/ 
+Upload complete
+[Pipeline] }
+[Pipeline] // withStorageEnv
+[Pipeline] statspublish
+[Pipeline] }
+[Pipeline] // dir
+[Pipeline] echo
+[0;32m [INFO] buildResults-FAIL.html published successfully. [0m
+[Pipeline] emailext
+Finished: Uploading to tc-a100000169001-builds/100000169/SampleApp/Builds/buildFabricApp/19/buildResults-FAIL.html
+Sending email to: venkatan@maveric-systems.com
+[Pipeline] fileExists
+[Pipeline] dir
+Running in /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fabricMustHaves
+[Pipeline] {
+[Pipeline] fileExists
+[Pipeline] }
+[Pipeline] // dir
+[Pipeline] fileExists
+[Pipeline] dir
+Running in /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp
+[Pipeline] {
+[Pipeline] sh
++ set +ex
+[Pipeline] sh
++ set +ex
+[Pipeline] }
+[Pipeline] // dir
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+Finished: FAILURE
