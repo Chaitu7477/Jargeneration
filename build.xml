@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="SampleApp" default="deploy" basedir=".">
+    <echo message="PROJECT_NAME is: ${PROJECT_NAME}"/>
+    <echo message="PROJECT_WORKSPACE is: ${UPSTREAM_JOB_WORKSPACE}/fab_ws/${PROJECT_NAME}"/>
+    <echo message="Current working directory is: ${basedir}"/>
+    
+    <property name="localservices.release.dir" value="${UPSTREAM_JOB_WORKSPACE}/fab_ws/${PROJECT_NAME}/Hook/localservices/release/binaries/"/>       
+    
+    <property name="app.release.dir" value="${UPSTREAM_JOB_WORKSPACE}/fab_ws/${PROJECT_NAME}/Fabric/SampleApp/Apps/_JARs/"/>
+
+    <property name="localservices.maven.dir" value="${UPSTREAM_JOB_WORKSPACE}/fab_ws/${PROJECT_NAME}/Hook/localservices/Fabric/java/"/>      
+
+    <target name="cloneMicroApps">   
+		<property name="SOURCE_BRANCH" value="${SCM_BRANCH}" />
+		<exec executable="/bin/bash" failonerror="true">
+			<arg value="./ReadDirectory.sh"/>
+	 		<arg value="${SOURCE_BRANCH}"/>
+		</exec>
+	</target>
+
+    <target name="mvn-clean-install-localservices" depends="cloneMicroApps">
+        <echo message="Running Maven clean install inside ${localservices.maven.dir}..."/>
+        <exec executable="/bin/sh" dir="${localservices.maven.dir}">
+            <arg value="-c"/>
+            <arg value="mvn --settings ${UPSTREAM_JOB_WORKSPACE}/fab_ws/${PROJECT_NAME}/Hook/settings.xml clean install -Dmaven.test.skip=true"/>
+        </exec>
+    </target>  
+
+    <target name="update-localservices-jars" depends="mvn-clean-install-localservices">
+        <echo message="Updating JARs from ${localservices.release.dir} to ${app.release.dir}. Only jars that already exist in ${app.release.dir} will be updated if newer."/>
+
+        <copy todir="${app.release.dir}" overwrite="true" verbose="true">
+            <fileset dir="${localservices.release.dir}" includes="**/*.jar">
+                <selector>
+                    <present targetdir="${app.release.dir}" />
+                </selector>
+            </fileset>
+        </copy>
+    </target>   
+
+    <target name="deploy" depends="update-localservices-jars">
+        <echo message="Deployment complete! SampleApp folder has been updated with latest jars."/>
+    </target>
+
+</project>
+ 
