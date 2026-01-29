@@ -1,0 +1,1170 @@
+Started by upstream project "SampleApp/Fabric/Builds/buildFabricApp" build number 50
+originally caused by:
+ Started by user venkatan@maveric-systems.com
+ Started by upstream project "SampleApp/Fabric/Builds/buildFabricApp" build number 49
+ originally caused by:
+  Started by user venkatan@maveric-systems.com
+  Started by upstream project "SampleApp/Fabric/Builds/buildFabricApp" build number 48
+  originally caused by:
+   Started by user venkatan@maveric-systems.com
+   Started by upstream project "SampleApp/Fabric/Builds/buildFabricApp" build number 47
+   originally caused by:
+    Started by user venkatan@maveric-systems.com
+    Started by upstream project "SampleApp/Fabric/Builds/buildFabricApp" build number 46
+    originally caused by:
+     Started by user venkatan@maveric-systems.com
+     Started by upstream project "SampleApp/Fabric/Builds/buildFabricApp" build number 45
+     originally caused by:
+      Started by user venkatan@maveric-systems.com
+      Started by upstream project "SampleApp/Fabric/Builds/buildFabricApp" build number 44
+      originally caused by:
+       Started by user venkatan@maveric-systems.com
+       Started by upstream project "SampleApp/Fabric/Builds/buildFabricApp" build number 43
+       originally caused by:
+        Started by user venkatan@maveric-systems.com
+        Started by upstream project "SampleApp/Fabric/Builds/buildFabricApp" build number 42
+        originally caused by:
+         Started by user venkatan@maveric-systems.com
+         Started by upstream project "SampleApp/Fabric/Builds/buildFabricApp" build number 41
+         originally caused by:
+          Started by user venkatan@maveric-systems.com
+          Started by upstream project "SampleApp/Fabric/Builds/buildFabricApp" build number 40
+          originally caused by:
+           Started by user venkatan@maveric-systems.com
+           Started by upstream project "SampleApp/Fabric/Builds/buildFabricApp" build number 39
+           originally caused by:
+            (deeply nested causes)
+Loading library kony-common@master
+FSSCM.checkout /var/lib/jenkins/libraries/kony-common to /var/lib/jenkins/workspace/SampleApp/Fabric/CustomHooks/PRE_BUILD/SampleApp1@libs/3b3471213e8f4858dbc41ec03b8edb5066ee2d9018cbc04b5bc487a024758347
+FSSCM.clearWorkspace...
+New file: src/com/kony/appfactory/helper/CustomHookHelper.groovy
+New file: src/com/kony/appfactory/helper/EmailTemplateHelper.groovy
+New file: src/com/kony/appfactory/helper/BuildHelper.groovy
+New file: src/com/kony/appfactory/helper/AppFactoryException.groovy
+New file: src/com/kony/appfactory/helper/CredentialsHelper.groovy
+New file: src/com/kony/appfactory/helper/ArtifactHelper.groovy
+New file: src/com/kony/appfactory/helper/ConfigFileHelper.groovy
+New file: src/com/kony/appfactory/helper/NotificationsHelper.groovy
+New file: src/com/kony/appfactory/helper/JsonHelper.groovy
+New file: src/com/kony/appfactory/helper/CustomBuildConfigHelper.groovy
+New file: src/com/kony/appfactory/helper/AwsDeviceFarmHelper.groovy
+New file: src/com/kony/appfactory/helper/EmailBuilder.groovy
+New file: src/com/kony/appfactory/helper/CloudBuildHelper.groovy
+New file: src/com/kony/appfactory/helper/FabricHelper.groovy
+New file: src/com/kony/appfactory/helper/TestsHelper.groovy
+New file: src/com/kony/appfactory/helper/ValidationHelper.groovy
+New file: src/com/kony/appfactory/helper/AwsHelper.groovy
+New file: src/com/kony/appfactory/enums/Status.groovy
+New file: src/com/kony/appfactory/enums/BuildType.groovy
+New file: src/com/kony/appfactory/enums/BuildPhase.groovy
+New file: src/com/kony/appfactory/enums/PlatformType.groovy
+New file: src/com/kony/appfactory/enums/FormFactor.groovy
+New file: src/com/kony/appfactory/enums/ChannelType.groovy
+New file: src/com/kony/appfactory/sanitizers/RegexSanitizer.groovy
+New file: src/com/kony/appfactory/sanitizers/TextSanitizer.groovy
+New file: src/com/kony/appfactory/sanitizers/RemoveLinesSanitizer.groovy
+New file: src/com/kony/appfactory/fabricTests/RunTests.groovy
+New file: src/com/kony/appfactory/fabricTests/CucumberTests.groovy
+New file: src/com/kony/appfactory/fabricTests/FacadeTests.groovy
+New file: src/com/kony/appfactory/fabricTests/KarateTests.groovy
+New file: src/com/kony/appfactory/qualitychecks/CodeScanners.groovy
+New file: src/com/kony/appfactory/visualizer/BuildStatus.groovy
+New file: src/com/kony/appfactory/visualizer/Facade.groovy
+New file: src/com/kony/appfactory/visualizer/channels/IosChannel.groovy
+New file: src/com/kony/appfactory/visualizer/channels/WindowsChannel.groovy
+New file: src/com/kony/appfactory/visualizer/channels/AndroidChannel.groovy
+New file: src/com/kony/appfactory/visualizer/channels/AllChannels.groovy
+New file: src/com/kony/appfactory/visualizer/channels/DesktopWebChannel.groovy
+New file: src/com/kony/appfactory/visualizer/channels/Channel.groovy
+New file: src/com/kony/appfactory/visualizer/channels/WebChannel.groovy
+New file: src/com/kony/appfactory/visualizer/TestAutomation.groovy
+New file: src/com/kony/appfactory/visualizer/CustomBuildConfig.groovy
+New file: src/com/kony/appfactory/visualizer/customhooks/CustomHook.groovy
+New file: src/com/kony/appfactory/microservices/ConfigureMS.groovy
+New file: src/com/kony/appfactory/annotations/Path.groovy
+New file: src/com/kony/appfactory/custompipeline/CustomPipeline.groovy
+New file: src/com/kony/appfactory/custombuildconfig/CustomOperations.groovy
+New file: src/com/kony/appfactory/database/Flyway.groovy
+New file: src/com/kony/appfactory/tests/channels/RunTests.groovy
+New file: src/com/kony/appfactory/tests/channels/DesktopWebTests.groovy
+New file: src/com/kony/appfactory/tests/channels/NativeAWSDeviceFarmTests.groovy
+New file: src/com/kony/appfactory/tests/FacadeTests.groovy
+New file: src/com/kony/appfactory/dto/buildstatus/PlatformsDTO.groovy
+New file: src/com/kony/appfactory/dto/buildstatus/BuildStatusDTO.groovy
+New file: src/com/kony/appfactory/dto/visualizer/ProjectPropertiesDTO.groovy
+New file: src/com/kony/appfactory/dto/tests/Device.groovy
+New file: src/com/kony/appfactory/dto/tests/DetailedNativeResults.groovy
+New file: src/com/kony/appfactory/dto/tests/NativeTestsDTO.groovy
+New file: src/com/kony/appfactory/dto/tests/ResultsCount.groovy
+New file: src/com/kony/appfactory/fabric/Facade.groovy
+New file: src/com/kony/appfactory/fabric/Fabric.groovy
+New file: version.txt
+New file: vars/when.txt
+New file: vars/echoCustom.txt
+New file: vars/catchErrorCustom.groovy
+New file: vars/when.groovy
+New file: vars/catchErrorCustom.txt
+New file: vars/echoCustom.groovy
+New file: vars/shellCustom.txt
+New file: vars/loadLibraryResource.groovy
+New file: vars/callStageCustom.txt
+New file: vars/loadLibraryResource.txt
+New file: vars/shellCustom.groovy
+New file: vars/callStageCustom.groovy
+New file: version.html
+New file: README.md
+New file: resources/com/kony/appfactory/feature.xml.downloader/package.json
+New file: resources/com/kony/appfactory/feature.xml.downloader/readme.txt
+New file: resources/com/kony/appfactory/feature.xml.downloader/downloadFeaturesXml.js
+New file: resources/com/kony/appfactory/email/templates/KonyBase.template
+New file: resources/com/kony/appfactory/visualizer/ivysettings.xml
+New file: resources/com/kony/appfactory/visualizer/property.xml
+New file: resources/com/kony/appfactory/visualizer/apple_orig.plist
+New file: resources/com/kony/appfactory/visualizer/appfactoryPostCompileTaskForAabSupport.xml
+New file: resources/com/kony/appfactory/visualizer/ci-property.xml
+New file: resources/com/kony/appfactory/jasmineinvoker/web/AFWSClient.java
+New file: resources/com/kony/appfactory/jasmineinvoker/web/afmodulepom.xml
+New file: resources/com/kony/appfactory/jasmineinvoker/web/package.json
+New file: resources/com/kony/appfactory/jasmineinvoker/web/TestNG.xml
+New file: resources/com/kony/appfactory/jasmineinvoker/web/WebScreenshotComparison.js
+New file: resources/com/kony/appfactory/jasmineinvoker/web/server.js
+New file: resources/com/kony/appfactory/jasmineinvoker/web/InvokeJasmineTests.java
+New file: resources/com/kony/appfactory/jasmineinvoker/web/AFCrossAppClient.java
+New file: resources/com/kony/appfactory/jasmineinvoker/web/parentpom.xml
+New file: resources/com/kony/appfactory/jasmineinvoker/web/pom.xml
+New file: resources/com/kony/appfactory/jasmineinvoker/web/appfactoryReporter.js
+New file: resources/com/kony/appfactory/jasmineinvoker/native/AFWSClient.java
+New file: resources/com/kony/appfactory/jasmineinvoker/native/afmodulepom.xml
+New file: resources/com/kony/appfactory/jasmineinvoker/native/package.json
+New file: resources/com/kony/appfactory/jasmineinvoker/native/TestNG.xml
+New file: resources/com/kony/appfactory/jasmineinvoker/native/zip.xml
+New file: resources/com/kony/appfactory/jasmineinvoker/native/server.js
+New file: resources/com/kony/appfactory/jasmineinvoker/native/InvokeJasmineTests.java
+New file: resources/com/kony/appfactory/jasmineinvoker/native/AFCrossAppClient.java
+New file: resources/com/kony/appfactory/jasmineinvoker/native/parentpom.xml
+New file: resources/com/kony/appfactory/jasmineinvoker/native/pom.xml
+New file: resources/com/kony/appfactory/jasmineinvoker/native/NativeScreenshotComparison.js
+New file: resources/com/kony/appfactory/jasmineinvoker/native/appfactoryReporter.js
+New file: resources/com/kony/appfactory/configurations/common.properties
+New file: resources/com/kony/appfactory/configurations/Fastfile
+New file: resources/com/kony/appfactory/configurations/KonyYamlTestSpec.template
+New file: resources/com/kony/appfactory/codeCoverage/reporter.js
+
+FSSCM.check completed in 5.446 seconds
+[Pipeline] Start of Pipeline
+[Pipeline] libraryResource
+[Pipeline] ansiColor
+[Pipeline] {
+
+[Pipeline] }
+
+[Pipeline] // ansiColor
+[Pipeline] timestamps
+[Pipeline] {
+[Pipeline] ansiColor
+[Pipeline] {
+[2026-01-29T06:20:24.776Z] 
+[Pipeline] node
+[2026-01-29T06:20:24.914Z] Running on a100000169001L1-LinuxHookAgent in /home/hookslave/workspace/SampleApp/Fabric/CustomHooks/PRE_BUILD/SampleApp1
+[Pipeline] {
+[Pipeline] ws
+[2026-01-29T06:20:25.091Z] Running in /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws
+[Pipeline] {
+[Pipeline] isUnix
+[Pipeline] echo
+[2026-01-29T06:20:25.320Z] [0;32m [INFO] Running CustomHook [0m
+[Pipeline] withEnv
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Run CustomHook)
+[Pipeline] dir
+[2026-01-29T06:20:25.637Z] Running in /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook
+[Pipeline] {
+[Pipeline] nodejs
+[Pipeline] {
+[Pipeline] sh
+[2026-01-29T06:20:26.213Z] + set +ex
+[2026-01-29T06:20:26.213Z] Buildfile: /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/build.xml
+[2026-01-29T06:20:26.471Z]      [echo] PROJECT_NAME is: SampleApp
+[2026-01-29T06:20:26.471Z]      [echo] PROJECT_WORKSPACE is: /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp
+[2026-01-29T06:20:26.471Z]      [echo] Current working directory is: /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook
+[2026-01-29T06:20:26.471Z] 
+[2026-01-29T06:20:26.471Z] cloneMicroApps:
+[2026-01-29T06:20:26.731Z]      [exec] GNU bash, version 4.2.46(2)-release (x86_64-koji-linux-gnu)
+[2026-01-29T06:20:26.731Z]      [exec] Copyright (C) 2011 Free Software Foundation, Inc.
+[2026-01-29T06:20:26.731Z]      [exec] License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+[2026-01-29T06:20:26.731Z]      [exec] 
+[2026-01-29T06:20:26.731Z]      [exec] This is free software; you are free to change and redistribute it.
+[2026-01-29T06:20:26.731Z]      [exec] There is NO WARRANTY, to the extent permitted by law.
+[2026-01-29T06:20:26.731Z]      [exec] 4.2.46(2)-release
+[2026-01-29T06:20:26.731Z]      [exec] mbb_DEV_Branch220126
+[2026-01-29T06:20:26.731Z]      [exec] Hi user
+[2026-01-29T06:20:26.731Z]      [exec] current path is /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook
+[2026-01-29T06:20:26.731Z]      [exec] Cloning digital_banking_fabric_source...
+[2026-01-29T06:20:26.731Z]      [exec] https://VenkataN1:glpat-P6dggZRNcdLazg5kqz35SW86MQp1Omp0YXlrCw.01.120fcjwo9@gitlab.com/muchbetter-group/groups/maveric-systems-temenos/digital_banking_fabric_source.git
+[2026-01-29T06:20:26.731Z]      [exec] Cloning into 'digital_banking_fabric_source'...
+[2026-01-29T06:20:36.694Z]      [exec] Updating files:  49% (7560/15158)
+[2026-01-29T06:20:36.694Z]      [exec] Updating files:  50% (7579/15158)Updating files:  51% (7731/15158)Updating files:  52% (7883/15158)Updating files:  53% (8034/15158)Updating files:  54% (8186/15158)Updating files:  55% (8337/15158)Updating files:  56% (8489/15158)Updating files:  57% (8641/15158)Updating files:  58% (8792/15158)Updating files:  59% (8944/15158)Updating files:  60% (9095/15158)Updating files:  61% (9247/15158)Updating files:  62% (9398/15158)Updating files:  63% (9550/15158)Updating files:  64% (9702/15158)Updating files:  65% (9853/15158)Updating files:  66% (10005/15158)Updating files:  67% (10156/15158)Updating files:  68% (10308/15158)Updating files:  69% (10460/15158)Updating files:  70% (10611/15158)Updating files:  71% (10763/15158)Updating files:  72% (10914/15158)Updating files:  73% (11066/15158)Updating files:  74% (11217/15158)Updating files:  75% (11369/15158)Updating files:  76% (11521/15158)Updating files:  77% (11672/15158)Updating files:  78% (11824/15158)Updating files:  79% (11975/15158)Updating files:  80% (12127/15158)Updating files:  81% (12278/15158)Updating files:  82% (12430/15158)Updating files:  83% (12582/15158)Updating files:  84% (12733/15158)Updating files:  85% (12885/15158)Updating files:  86% (13036/15158)Updating files:  87% (13188/15158)Updating files:  88% (13340/15158)Updating files:  89% (13491/15158)Updating files:  90% (13643/15158)Updating files:  90% (13758/15158)Updating files:  91% (13794/15158)Updating files:  92% (13946/15158)Updating files:  93% (14097/15158)Updating files:  94% (14249/15158)Updating files:  95% (14401/15158)Updating files:  96% (14552/15158)
+[2026-01-29T06:20:36.694Z]      [exec] Updating files:  97% (14704/15158)Updating files:  98% (14855/15158)Updating files:  99% (15007/15158)Updating files: 100% (15158/15158)Updating files: 100% (15158/15158), done.bd49c7ac
+[2026-01-29T06:20:36.694Z]      [exec] Hook.zip
+[2026-01-29T06:20:36.694Z]      [exec] ReadDirectory.sh
+[2026-01-29T06:20:36.694Z]      [exec] build.xml
+[2026-01-29T06:20:36.694Z]      [exec] digital_banking_fabric_source
+[2026-01-29T06:20:36.694Z]      [exec] settings.xml
+[2026-01-29T06:20:36.694Z]      [exec] current path is /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook
+[2026-01-29T06:20:36.694Z] 
+[2026-01-29T06:20:36.694Z] mvn-clean-install-digital_banking_fabric_source:
+[2026-01-29T06:20:36.694Z]      [echo] Running Maven clean install inside /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/...
+[2026-01-29T06:20:38.592Z]      [exec] [WARNING] 
+[2026-01-29T06:20:38.592Z]      [exec] [WARNING] Some problems were encountered while building the effective settings
+[2026-01-29T06:20:38.592Z]      [exec] [WARNING] Unrecognised tag: 'digital_banking_fabric_source' (position: START_TAG seen ...pache.org/xsd/maven-4.0.0.xsd">\r\n  <digital_banking_fabric_source>... @6:34)  @ /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/settings.xml, line 6, column 34
+[2026-01-29T06:20:38.592Z]      [exec] [WARNING] 
+[2026-01-29T06:20:38.592Z]      [exec] [INFO] Scanning for projects...
+[2026-01-29T06:20:39.523Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.523Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.infinity.dbx:DBPJWTGeneration:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.523Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.523Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.523Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:dbp-commonutilityservices:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.523Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.523Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-pmd-plugin is missing. @ com.kony.dbp:dbp-commonutilityservices:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPCommonUtilityServices/pom.xml, line 143, column 12
+[2026-01-29T06:20:39.523Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-checkstyle-plugin is missing. @ com.kony.dbp:dbp-commonutilityservices:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPCommonUtilityServices/pom.xml, line 139, column 12
+[2026-01-29T06:20:39.523Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.523Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:dbp-adminintegrationservices:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.523Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.523Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-pmd-plugin is missing. @ com.kony.dbp:dbp-adminintegrationservices:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPAdminIntegration/pom.xml, line 85, column 12
+[2026-01-29T06:20:39.523Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-checkstyle-plugin is missing. @ com.kony.dbp:dbp-adminintegrationservices:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPAdminIntegration/pom.xml, line 81, column 12
+[2026-01-29T06:20:39.523Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.523Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:dbp-mfaservices:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.523Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.523Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-pmd-plugin is missing. @ com.kony.dbp:dbp-mfaservices:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPMFAServices/pom.xml, line 68, column 12
+[2026-01-29T06:20:39.523Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-checkstyle-plugin is missing. @ com.kony.dbp:dbp-mfaservices:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPMFAServices/pom.xml, line 64, column 12
+[2026-01-29T06:20:39.523Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.523Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:dbp-businessbankingservices:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.523Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.523Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-pmd-plugin is missing. @ com.kony.dbp:dbp-businessbankingservices:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPBusinessBankingServices/pom.xml, line 123, column 12
+[2026-01-29T06:20:39.523Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-checkstyle-plugin is missing. @ com.kony.dbp:dbp-businessbankingservices:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPBusinessBankingServices/pom.xml, line 119, column 12
+[2026-01-29T06:20:39.523Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.523Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:dbp-productservices:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-pmd-plugin is missing. @ com.kony.dbp:dbp-productservices:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPProductServices/pom.xml, line 134, column 12
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-checkstyle-plugin is missing. @ com.kony.dbp:dbp-productservices:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPProductServices/pom.xml, line 130, column 12
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:dbp-nonproductservices:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-pmd-plugin is missing. @ com.kony.dbp:dbp-nonproductservices:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPNonProductServices/pom.xml, line 65, column 12
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-checkstyle-plugin is missing. @ com.kony.dbp:dbp-nonproductservices:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPNonProductServices/pom.xml, line 61, column 12
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:dbp-demoandcoreservices:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-pmd-plugin is missing. @ com.kony.dbp:dbp-demoandcoreservices:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPDemoAndCoreServices/pom.xml, line 72, column 12
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-checkstyle-plugin is missing. @ com.kony.dbp:dbp-demoandcoreservices:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPDemoAndCoreServices/pom.xml, line 68, column 12
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:dbp-customerfeedback:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-pmd-plugin is missing. @ com.kony.dbp:dbp-customerfeedback:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPCustomerFeedback/pom.xml, line 59, column 12
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-checkstyle-plugin is missing. @ com.kony.dbp:dbp-customerfeedback:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPCustomerFeedback/pom.xml, line 55, column 12
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:dbp-ObjectServices:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-pmd-plugin is missing. @ com.kony.dbp:dbp-ObjectServices:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPObjectServices/pom.xml, line 26, column 12
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-checkstyle-plugin is missing. @ com.kony.dbp:dbp-ObjectServices:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPObjectServices/pom.xml, line 22, column 12
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:dbp-testscripts:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-pmd-plugin is missing. @ com.kony.dbp:dbp-testscripts:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPTestScripts/pom.xml, line 92, column 12
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-checkstyle-plugin is missing. @ com.kony.dbp:dbp-testscripts:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPTestScripts/pom.xml, line 88, column 12
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:ArtifactsManager:pom:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-clean-plugin is missing. @ com.kony.dbp:ArtifactsManager:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/ArtifactsManager/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:wealth-services:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-pmd-plugin is missing. @ com.kony.dbp:wealth-services:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/WealthServices/pom.xml, line 111, column 12
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-checkstyle-plugin is missing. @ com.kony.dbp:wealth-services:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/WealthServices/pom.xml, line 107, column 12
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.temenos.partyarrangement:dbp-partyarrangementmicroservices:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:dbp-customerdetailsservice:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:transactionadviceapi-services:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:TransactionAdviceBackendDelegateAPI:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:TransactionAdviceBackendDelegateAPIImpl:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:dbp-chequemanagementservices:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:savingspotapi-services:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-pmd-plugin is missing. @ com.kony.dbp:savingspotapi-services:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/SavingsPotAPI-Services/pom.xml, line 70, column 12
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-checkstyle-plugin is missing. @ com.kony.dbp:savingspotapi-services:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/SavingsPotAPI-Services/pom.xml, line 66, column 12
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:usermanagementapi-services:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-pmd-plugin is missing. @ com.kony.dbp:usermanagementapi-services:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/UserManagementAPI-Services/pom.xml, line 65, column 12
+[2026-01-29T06:20:39.782Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-checkstyle-plugin is missing. @ com.kony.dbp:usermanagementapi-services:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/UserManagementAPI-Services/pom.xml, line 61, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:dbp-scaintegration:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:visaintegrationapi-services:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:cardmanagement-services:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.temenos.infinity:forexservices:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-pmd-plugin is missing. @ line 235, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-checkstyle-plugin is missing. @ line 231, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:dbp-paymentservices:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'dependencies.dependency.systemPath' for com.temenos.infinity:com.temenos.infinity.integration.common:jar should not point at files within the project directory, ${basedir}/lib/com.temenos.infinity.integration.common.jar will be unresolvable by dependent projects @ com.kony.dbp:dbp-paymentservices:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPPaymentServices/pom.xml, line 110, column 16
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'dependencies.dependency.systemPath' for com.temenos.infinity:com.temenos.infinity.t24irisintegration:jar should not point at files within the project directory, ${basedir}/lib/com.temenos.infinity.t24irisintegration.jar will be unresolvable by dependent projects @ com.kony.dbp:dbp-paymentservices:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPPaymentServices/pom.xml, line 117, column 16
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'dependencies.dependency.systemPath' for com.kony.dbpp:dbp-ObjectServices:jar should not point at files within the project directory, ${basedir}/lib/dbp-ObjectServices.jar will be unresolvable by dependent projects @ com.kony.dbp:dbp-paymentservices:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPPaymentServices/pom.xml, line 124, column 16
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'dependencies.dependency.systemPath' for com.kony.dbpp:dbp-productservices:jar should not point at files within the project directory, ${basedir}/lib/dbp-productservices.jar will be unresolvable by dependent projects @ com.kony.dbp:dbp-paymentservices:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPPaymentServices/pom.xml, line 131, column 16
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:accountaggregation-services:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:servicerequest-services:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.temenos.infinity:bulkpaymentservices:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'dependencies.dependency.systemPath' for com.temenos.infinity:com.temenos.infinity.integration.common:jar should not point at files within the project directory, ${basedir}/lib/com.temenos.infinity.integration.common.jar will be unresolvable by dependent projects @ line 54, column 16
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'dependencies.dependency.systemPath' for com.temenos.infinity:com.temenos.infinity.t24irisintegration:jar should not point at files within the project directory, ${basedir}/lib/com.temenos.infinity.t24irisintegration.jar will be unresolvable by dependent projects @ line 61, column 16
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.commons:commons-lang3:jar -> duplicate declaration of version 3.8.1 @ line 101, column 15
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.kony.dbp:dbp-ObjectServices:jar -> duplicate declaration of version ${project.version} @ line 120, column 15
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'dependencies.dependency.systemPath' for com.temenos.technology:channels:jar should not point at files within the project directory, ${basedir}/lib/channels.jar will be unresolvable by dependent projects @ line 130, column 16
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'dependencies.dependency.systemPath' for com.temenos.technology:tcclient:jar should not point at files within the project directory, ${basedir}/lib/tcclient.jar will be unresolvable by dependent projects @ line 137, column 16
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'dependencies.dependency.systemPath' for com.temenos.technology:ofsml:jar should not point at files within the project directory, ${basedir}/lib/ofsml.jar will be unresolvable by dependent projects @ line 144, column 16
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'dependencies.dependency.systemPath' for com.temenos.technology:tbrowser:jar should not point at files within the project directory, ${basedir}/lib/tbrowser.jar will be unresolvable by dependent projects @ line 151, column 16
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'dependencies.dependency.systemPath' for com.temenos.technology:tcommon:jar should not point at files within the project directory, ${basedir}/lib/tcommon.jar will be unresolvable by dependent projects @ line 158, column 16
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'dependencies.dependency.systemPath' for com.temenos.technology:tcommonjdbc:jar should not point at files within the project directory, ${basedir}/lib/tcommonjdbc.jar will be unresolvable by dependent projects @ line 165, column 16
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'dependencies.dependency.systemPath' for com.temenos.technology:tcommonjms:jar should not point at files within the project directory, ${basedir}/lib/tcommonjms.jar will be unresolvable by dependent projects @ line 172, column 16
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'dependencies.dependency.systemPath' for com.temenos.technology:tcsecurity:jar should not point at files within the project directory, ${basedir}/lib/tcsecurity.jar will be unresolvable by dependent projects @ line 179, column 16
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.temenos.infinity:tradefinanceservices:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.temenos.infinity:tradesupplyfinance-services:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:dbp-P2P-enrollment:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-pmd-plugin is missing. @ com.kony.dbp:dbp-P2P-enrollment:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/dbp-P2P-enrollment/pom.xml, line 115, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-checkstyle-plugin is missing. @ com.kony.dbp:dbp-P2P-enrollment:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/dbp-P2P-enrollment/pom.xml, line 111, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:dbp-billPay-enrollment:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-pmd-plugin is missing. @ com.kony.dbp:dbp-billPay-enrollment:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/dbp-billPay-enrollment/pom.xml, line 122, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-checkstyle-plugin is missing. @ com.kony.dbp:dbp-billPay-enrollment:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/dbp-billPay-enrollment/pom.xml, line 118, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:dbp-qrPayment-enrollment:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-pmd-plugin is missing. @ com.kony.dbp:dbp-qrPayment-enrollment:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/dbp-qrPayment-enrollment/pom.xml, line 122, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-checkstyle-plugin is missing. @ com.kony.dbp:dbp-qrPayment-enrollment:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/dbp-qrPayment-enrollment/pom.xml, line 118, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:holdingsapi-services:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'dependencies.dependency.systemPath' for com.temenos.infinity:com.temenos.infinity.integration.common:jar should not point at files within the project directory, ${basedir}/lib/com.temenos.infinity.integration.common.jar will be unresolvable by dependent projects @ com.kony.dbp:holdingsapi-services:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/HoldingsAPI-Services/pom.xml, line 39, column 16
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'dependencies.dependency.systemPath' for com.temenos.infinity:com.temenos.infinity.t24irisintegration:jar should not point at files within the project directory, ${basedir}/lib/com.temenos.infinity.t24irisintegration.jar will be unresolvable by dependent projects @ com.kony.dbp:holdingsapi-services:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/HoldingsAPI-Services/pom.xml, line 46, column 16
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:dbp-checkManagement:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'dependencies.dependency.systemPath' for com.temenos.infinity:com.temenos.infinity.integration.common:jar should not point at files within the project directory, ${basedir}/lib/com.temenos.infinity.integration.common.jar will be unresolvable by dependent projects @ com.kony.dbp:dbp-checkManagement:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/dbp-checkManagement/pom.xml, line 20, column 16
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'dependencies.dependency.systemPath' for com.temenos.infinity:com.temenos.infinity.t24irisintegration:jar should not point at files within the project directory, ${basedir}/lib/com.temenos.infinity.t24irisintegration.jar will be unresolvable by dependent projects @ com.kony.dbp:dbp-checkManagement:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/dbp-checkManagement/pom.xml, line 43, column 16
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:arrangementsapi-services:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:docmanagementapi-services:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-pmd-plugin is missing. @ com.kony.dbp:docmanagementapi-services:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DocManagementApi-Services/pom.xml, line 112, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-checkstyle-plugin is missing. @ com.kony.dbp:docmanagementapi-services:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DocManagementApi-Services/pom.xml, line 108, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:utility:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-pmd-plugin is missing. @ com.kony.dbp:utility:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/utility/pom.xml, line 89, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-checkstyle-plugin is missing. @ com.kony.dbp:utility:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/utility/pom.xml, line 85, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:dbp-authservices:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-pmd-plugin is missing. @ com.kony.dbp:dbp-authservices:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/dbp-authservices/pom.xml, line 68, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-checkstyle-plugin is missing. @ com.kony.dbp:dbp-authservices:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/dbp-authservices/pom.xml, line 64, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:contentmanagement:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.kony.dbp:dbp-commonutilityservices:jar -> duplicate declaration of version ${project.version} @ com.kony.dbp:contentmanagement:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/Contentmanagement/pom.xml, line 33, column 15
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:externalusermanagment:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:eum-productservices:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.commons:commons-lang3:jar -> version (?) vs 3.6 @ com.kony.dbp:eum-productservices:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/eum-productservices/pom.xml, line 66, column 15
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:eum-mfaservices:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:dbp-partyservices:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.kony.dbp:eum-productservices:jar -> duplicate declaration of version ${project.version} @ com.kony.dbp:dbp-partyservices:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/PartyAPI-Services/pom.xml, line 38, column 15
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.kony.dbp:dbp-mfaservices:jar -> duplicate declaration of version ${project.version} @ com.kony.dbp:dbp-partyservices:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/PartyAPI-Services/pom.xml, line 47, column 15
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-pmd-plugin is missing. @ com.kony.dbp:dbp-partyservices:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/PartyAPI-Services/pom.xml, line 95, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-checkstyle-plugin is missing. @ com.kony.dbp:dbp-partyservices:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/PartyAPI-Services/pom.xml, line 91, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:com.temenos.infinity.integration.common:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:com.temenos.infinity.t24irisintegration:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'dependencies.dependency.systemPath' for com.temenos.technology:channels:jar should not point at files within the project directory, ${basedir}/lib/channels.jar will be unresolvable by dependent projects @ com.kony.dbp:com.temenos.infinity.t24irisintegration:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/com.temenos.infinity.t24irisintegration/pom.xml, line 52, column 16
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'dependencies.dependency.systemPath' for com.temenos.technology:tcclient:jar should not point at files within the project directory, ${basedir}/lib/tcclient.jar will be unresolvable by dependent projects @ com.kony.dbp:com.temenos.infinity.t24irisintegration:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/com.temenos.infinity.t24irisintegration/pom.xml, line 59, column 16
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'dependencies.dependency.systemPath' for com.temenos.technology:ofsml:jar should not point at files within the project directory, ${basedir}/lib/ofsml.jar will be unresolvable by dependent projects @ com.kony.dbp:com.temenos.infinity.t24irisintegration:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/com.temenos.infinity.t24irisintegration/pom.xml, line 66, column 16
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'dependencies.dependency.systemPath' for com.temenos.technology:tbrowser:jar should not point at files within the project directory, ${basedir}/lib/tbrowser.jar will be unresolvable by dependent projects @ com.kony.dbp:com.temenos.infinity.t24irisintegration:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/com.temenos.infinity.t24irisintegration/pom.xml, line 73, column 16
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'dependencies.dependency.systemPath' for com.temenos.technology:tcommon:jar should not point at files within the project directory, ${basedir}/lib/tcommon.jar will be unresolvable by dependent projects @ com.kony.dbp:com.temenos.infinity.t24irisintegration:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/com.temenos.infinity.t24irisintegration/pom.xml, line 80, column 16
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'dependencies.dependency.systemPath' for com.temenos.technology:tcommonjdbc:jar should not point at files within the project directory, ${basedir}/lib/tcommonjdbc.jar will be unresolvable by dependent projects @ com.kony.dbp:com.temenos.infinity.t24irisintegration:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/com.temenos.infinity.t24irisintegration/pom.xml, line 87, column 16
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'dependencies.dependency.systemPath' for com.temenos.technology:tcommonjms:jar should not point at files within the project directory, ${basedir}/lib/tcommonjms.jar will be unresolvable by dependent projects @ com.kony.dbp:com.temenos.infinity.t24irisintegration:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/com.temenos.infinity.t24irisintegration/pom.xml, line 94, column 16
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'dependencies.dependency.systemPath' for com.temenos.technology:tcsecurity:jar should not point at files within the project directory, ${basedir}/lib/tcsecurity.jar will be unresolvable by dependent projects @ com.kony.dbp:com.temenos.infinity.t24irisintegration:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/com.temenos.infinity.t24irisintegration/pom.xml, line 101, column 16
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:alertsmanagement:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:notifications:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:SecureMessages:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:t24common:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'dependencies.dependency.systemPath' for com.temenos.infinity:com.temenos.infinity.integration.common:jar should not point at files within the project directory, ${basedir}/lib/com.temenos.infinity.integration.common.jar will be unresolvable by dependent projects @ com.kony.dbp:t24common:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/T24Common/pom.xml, line 21, column 25
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:dbp-campaigndeliveryengine:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:dbp-campaignengine:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:dbp-CampaignJWTGeneration:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:portfolio-services:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-pmd-plugin is missing. @ com.kony.dbp:portfolio-services:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/PortfolioServicing/pom.xml, line 69, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-checkstyle-plugin is missing. @ com.kony.dbp:portfolio-services:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/PortfolioServicing/pom.xml, line 65, column 12
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:wealthorder-services:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.783Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.784Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-pmd-plugin is missing. @ com.kony.dbp:wealthorder-services:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/WealthOrderServices/pom.xml, line 72, column 12
+[2026-01-29T06:20:39.784Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-checkstyle-plugin is missing. @ com.kony.dbp:wealthorder-services:[unknown-version], /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/WealthOrderServices/pom.xml, line 68, column 12
+[2026-01-29T06:20:39.784Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.784Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:dbp-cardlesscash:jar:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.784Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ com.kony.dbp:dbp-localservicesaggregator:0.0.1-SNAPSHOT, /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml, line 302, column 12
+[2026-01-29T06:20:39.784Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.784Z]      [exec] [WARNING] Some problems were encountered while building the effective model for com.kony.dbp:dbp-localservicesaggregator:pom:0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.784Z]      [exec] [WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ line 302, column 12
+[2026-01-29T06:20:39.784Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.784Z]      [exec] [WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[2026-01-29T06:20:39.784Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.784Z]      [exec] [WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[2026-01-29T06:20:39.784Z]      [exec] [WARNING] 
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] ------------------------------------------------------------------------
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] Reactor Build Order:
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] 
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] DBP Local Services
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] DBPJWTGeneration
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] dbp-commonutilityservices
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] dbp-adminintegrationservices
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] dbp-scaintegration
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] dbp-mfaservices
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] DBPPaymentServices
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] TransactionAdviceBackendDelegateAPI
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] dbp-productservices
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] dbp-businessbankingservices
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] dbp-nonproductservices
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] Common
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] eum-productservices
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] dbp-demoandcoreservices
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] customer_feedback
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] dbp-ObjectServices
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] ArrangementsAPI-Services
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] PartyAPI-Services
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] dbp-testscripts
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] forexservices
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] SavingsPotAPI-Services
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] Temenos
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] WealthServices
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] bulkpaymentservices
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] tradefinanceservices
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] dbp-customerdetailsservice
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] dbp-chequemanagementservices
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] UserManagementAPI-Services
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] TransactionAdviceAPI-Services
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] TransactionAdviceBackendDelegateAPIImpl
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] visaintegrationapi-services
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] AccountAggregation-Services
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] FinanceManagement-Services
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] ConsentManagement
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] ServiceRequest-Services
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] dbp-billPay-enrollment
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] dbp-qrPayment-enrollment
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] dbp-P2P-enrollment
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] HoldingsAPI-Services
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] dbp-checkManagement
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] DocManagementApi-Services
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] eum-mfaservices
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] externalusermanagment
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] utility
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] dbp-authservices
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] alertsmanagement
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] notifications
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] T24Common
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] CampaignDeliveryEngine
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] CampaignJWTGeneration
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] CampaignEngine
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] WealthOrderServices
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] PortfolioServicing
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] CardManagement-Services
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] contentmanagement
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] dbp-cardlesscash
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] Kony Digital Banking Artifacts Manager
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] DBPArrangementMicroServices
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] tradesupplyfinance-services
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] SecureMessages
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] 
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] ------------------------------------------------------------------------
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] Building DBP Local Services 0.0.1-SNAPSHOT
+[2026-01-29T06:20:39.784Z]      [exec] [INFO] ------------------------------------------------------------------------
+[2026-01-29T06:20:40.351Z]      [exec] [INFO] 
+[2026-01-29T06:20:40.351Z]      [exec] [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ dbp-localservicesaggregator ---
+[2026-01-29T06:20:40.351Z]      [exec] [INFO] 
+[2026-01-29T06:20:40.351Z]      [exec] [INFO] --- maven-install-plugin:2.4:install (default-install) @ dbp-localservicesaggregator ---
+[2026-01-29T06:20:40.608Z]      [exec] [INFO] Installing /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/pom.xml to /home/hookslave/.m2/repository/com/kony/dbp/dbp-localservicesaggregator/0.0.1-SNAPSHOT/dbp-localservicesaggregator-0.0.1-SNAPSHOT.pom
+[2026-01-29T06:20:40.864Z]      [exec] [INFO] 
+[2026-01-29T06:20:40.864Z]      [exec] [INFO] ------------------------------------------------------------------------
+[2026-01-29T06:20:40.864Z]      [exec] [INFO] Building DBPJWTGeneration 0.0.1-SNAPSHOT
+[2026-01-29T06:20:40.864Z]      [exec] [INFO] ------------------------------------------------------------------------
+[2026-01-29T06:20:40.864Z]      [exec] [INFO] Downloading from project-local-repo: file:///home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/../../../maven-local-repo/com/kony/dbp/DBPFramework/2023.04.00/DBPFramework-2023.04.00.pom
+[2026-01-29T06:20:41.427Z]      [exec] [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/kony/dbp/DBPFramework/2023.04.00/DBPFramework-2023.04.00.pom
+[2026-01-29T06:20:41.994Z]      [exec] [WARNING] The POM for com.kony.dbp:DBPFramework:jar:2023.04.00 is missing, no dependency information available
+[2026-01-29T06:20:42.252Z]      [exec] [INFO] 
+[2026-01-29T06:20:42.252Z]      [exec] [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ DBPJWTGeneration ---
+[2026-01-29T06:20:42.252Z]      [exec] [INFO] Deleting /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/target
+[2026-01-29T06:20:42.252Z]      [exec] [INFO] 
+[2026-01-29T06:20:42.252Z]      [exec] [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ DBPJWTGeneration ---
+[2026-01-29T06:20:42.509Z]      [exec] [INFO] Using 'UTF-8' encoding to copy filtered resources.
+[2026-01-29T06:20:42.509Z]      [exec] [INFO] Copying 2 resources
+[2026-01-29T06:20:42.509Z]      [exec] [INFO] 
+[2026-01-29T06:20:42.509Z]      [exec] [INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ DBPJWTGeneration ---
+[2026-01-29T06:20:43.076Z]      [exec] [INFO] Changes detected - recompiling the module!
+[2026-01-29T06:20:43.076Z]      [exec] [INFO] Compiling 8 source files to /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/target/classes
+[2026-01-29T06:20:46.373Z]      [exec] [INFO] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java: /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java uses or overrides a deprecated API.
+[2026-01-29T06:20:46.373Z]      [exec] [INFO] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java: Recompile with -Xlint:deprecation for details.
+[2026-01-29T06:20:46.373Z]      [exec] [INFO] -------------------------------------------------------------
+[2026-01-29T06:20:46.373Z]      [exec] [ERROR] COMPILATION ERROR : 
+[2026-01-29T06:20:46.373Z]      [exec] [INFO] -------------------------------------------------------------
+[2026-01-29T06:20:46.373Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[20,32] package org.apache.logging.log4j does not exist
+[2026-01-29T06:20:46.373Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[21,32] package org.apache.logging.log4j does not exist
+[2026-01-29T06:20:46.373Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[29,35] package com.konylabs.middleware.api does not exist
+[2026-01-29T06:20:46.373Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[30,35] package com.konylabs.middleware.api does not exist
+[2026-01-29T06:20:46.373Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[31,53] package com.konylabs.middleware.api.processor.manager does not exist
+[2026-01-29T06:20:46.373Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[32,42] package com.konylabs.middleware.controller does not exist
+[2026-01-29T06:20:46.373Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[33,39] package com.konylabs.middleware.ehcache does not exist
+[2026-01-29T06:20:46.373Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[34,39] package com.konylabs.middleware.ehcache does not exist
+[2026-01-29T06:20:46.373Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[35,42] package com.konylabs.middleware.exceptions does not exist
+[2026-01-29T06:20:46.373Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[40,26] cannot find symbol
+[2026-01-29T06:20:46.373Z]      [exec]   symbol:   class Logger
+[2026-01-29T06:20:46.373Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.TemenosUtils
+[2026-01-29T06:20:46.373Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[139,67] cannot find symbol
+[2026-01-29T06:20:46.373Z]      [exec]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.373Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.TemenosUtils
+[2026-01-29T06:20:46.373Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[175,60] cannot find symbol
+[2026-01-29T06:20:46.373Z]      [exec]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.373Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.TemenosUtils
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[217,60] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class FabricRequestManager
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.TemenosUtils
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[235,42] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class ServicesManager
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.TemenosUtils
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[274,51] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.TemenosUtils
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[314,51] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class FabricRequestManager
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.TemenosUtils
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[335,41] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class ServicesManager
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.TemenosUtils
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[378,42] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.TemenosUtils
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[416,42] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class FabricRequestManager
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.TemenosUtils
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[429,35] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.TemenosUtils
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[441,31] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class ServicesManager
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.TemenosUtils
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[461,41] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.TemenosUtils
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[485,36] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.TemenosUtils
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/AuthCertificate.java:[12,32] package org.apache.logging.log4j does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/AuthCertificate.java:[13,32] package org.apache.logging.log4j does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/AuthCertificate.java:[17,42] package com.konylabs.middleware.controller does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/AuthCertificate.java:[20,24] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class Logger
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.AuthCertificate
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/GetCertifcateKeys.java:[16,32] package org.apache.logging.log4j does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/GetCertifcateKeys.java:[17,32] package org.apache.logging.log4j does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/GetCertifcateKeys.java:[24,42] package com.konylabs.middleware.controller does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/GetCertifcateKeys.java:[25,42] package com.konylabs.middleware.dataobject does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/GetCertifcateKeys.java:[26,42] package com.konylabs.middleware.dataobject does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/GetCertifcateKeys.java:[27,42] package com.konylabs.middleware.dataobject does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/AuthCertificate.java:[43,41] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.AuthCertificate
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/AuthCertificate.java:[63,39] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.AuthCertificate
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/AuthCertificate.java:[74,48] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.AuthCertificate
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/GetCertifcateKeys.java:[33,30] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class Logger
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.GetCertifcateKeys
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/GetCertifcateKeys.java:[112,51] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.GetCertifcateKeys
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/GetCertifcateKeys.java:[125,71] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.GetCertifcateKeys
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/GetCertifcateKeys.java:[182,56] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.GetCertifcateKeys
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/GetPublicKeyOperation.java:[10,38] package com.konylabs.middleware.common does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/GetPublicKeyOperation.java:[11,42] package com.konylabs.middleware.controller does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/GetPublicKeyOperation.java:[12,42] package com.konylabs.middleware.controller does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/GetPublicKeyOperation.java:[13,42] package com.konylabs.middleware.dataobject does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/GetPublicKeyOperation.java:[14,42] package com.konylabs.middleware.dataobject does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/GetPublicKeyOperation.java:[15,42] package com.konylabs.middleware.dataobject does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/GetPublicKeyOperation.java:[16,42] package com.konylabs.middleware.dataobject does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/GetPublicKeyOperation.java:[22,47] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol: class JavaService2
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/GetPublicKeyOperation.java:[28,64] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.GetPublicKeyOperation
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/GetPublicKeyOperation.java:[28,95] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class DataControllerResponse
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.GetPublicKeyOperation
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/GetPublicKeyOperation.java:[42,25] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class Record
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.GetPublicKeyOperation
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/GetPublicKeyOperation.java:[42,48] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.GetPublicKeyOperation
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/Authentication.java:[17,32] package org.apache.logging.log4j does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/Authentication.java:[18,32] package org.apache.logging.log4j does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/Authentication.java:[21,35] package com.konylabs.middleware.api does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/Authentication.java:[22,35] package com.konylabs.middleware.api does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/Authentication.java:[24,45] package com.konylabs.middleware.api.processor does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/Authentication.java:[25,42] package com.konylabs.middleware.controller does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/Authentication.java:[26,42] package com.konylabs.middleware.exceptions does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/Authentication.java:[38,30] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class Logger
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.Authentication
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/Authentication.java:[53,36] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.Authentication
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/Authentication.java:[272,39] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.Authentication
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/Authentication.java:[300,41] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.Authentication
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/Authentication.java:[300,107] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class MiddlewareException
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.Authentication
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[19,32] package org.apache.logging.log4j does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[20,32] package org.apache.logging.log4j does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[25,35] package com.konylabs.middleware.api does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[26,35] package com.konylabs.middleware.api does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[27,35] package com.konylabs.middleware.api does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[28,42] package com.konylabs.middleware.controller does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[29,42] package com.konylabs.middleware.dataobject does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[30,42] package com.konylabs.middleware.dataobject does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[31,42] package com.konylabs.middleware.dataobject does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[32,42] package com.konylabs.middleware.dataobject does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[33,39] package com.konylabs.middleware.ehcache does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[34,39] package com.konylabs.middleware.ehcache does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[35,39] package com.konylabs.middleware.session does not exist
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[39,30] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class Logger
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[65,23] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class Result
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[87,52] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class Result
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[119,53] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[119,23] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class Result
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[207,58] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[207,24] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class OperationData
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[232,60] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[232,91] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class OperationData
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[232,24] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class ServiceRequest
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[312,44] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class Record
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[335,44] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class Result
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[356,65] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[390,50] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class Session
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[411,55] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class Session
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[448,51] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class Record
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[476,89] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class Logger
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[511,44] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class Param
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[511,57] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class Logger
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[537,45] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class Record
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[537,60] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class Logger
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[571,45] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class Result
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.374Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[571,60] cannot find symbol
+[2026-01-29T06:20:46.374Z]      [exec]   symbol:   class Logger
+[2026-01-29T06:20:46.374Z]      [exec]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.374Z]      [exec] [INFO] 100 errors 
+[2026-01-29T06:20:46.374Z]      [exec] [INFO] -------------------------------------------------------------
+[2026-01-29T06:20:46.374Z]      [exec] [INFO] ------------------------------------------------------------------------
+[2026-01-29T06:20:46.374Z]      [exec] [INFO] Reactor Summary:
+[2026-01-29T06:20:46.374Z]      [exec] [INFO] 
+[2026-01-29T06:20:46.374Z]      [exec] [INFO] DBP Local Services ................................. SUCCESS [  0.970 s]
+[2026-01-29T06:20:46.374Z]      [exec] [INFO] DBPJWTGeneration ................................... FAILURE [  5.539 s]
+[2026-01-29T06:20:46.374Z]      [exec] [INFO] dbp-commonutilityservices .......................... SKIPPED
+[2026-01-29T06:20:46.374Z]      [exec] [INFO] dbp-adminintegrationservices ....................... SKIPPED
+[2026-01-29T06:20:46.374Z]      [exec] [INFO] dbp-scaintegration ................................. SKIPPED
+[2026-01-29T06:20:46.374Z]      [exec] [INFO] dbp-mfaservices .................................... SKIPPED
+[2026-01-29T06:20:46.374Z]      [exec] [INFO] DBPPaymentServices ................................. SKIPPED
+[2026-01-29T06:20:46.374Z]      [exec] [INFO] TransactionAdviceBackendDelegateAPI ................ SKIPPED
+[2026-01-29T06:20:46.374Z]      [exec] [INFO] dbp-productservices ................................ SKIPPED
+[2026-01-29T06:20:46.374Z]      [exec] [INFO] dbp-businessbankingservices ........................ SKIPPED
+[2026-01-29T06:20:46.374Z]      [exec] [INFO] dbp-nonproductservices ............................. SKIPPED
+[2026-01-29T06:20:46.374Z]      [exec] [INFO] Common ............................................. SKIPPED
+[2026-01-29T06:20:46.374Z]      [exec] [INFO] eum-productservices ................................ SKIPPED
+[2026-01-29T06:20:46.374Z]      [exec] [INFO] dbp-demoandcoreservices ............................ SKIPPED
+[2026-01-29T06:20:46.374Z]      [exec] [INFO] customer_feedback .................................. SKIPPED
+[2026-01-29T06:20:46.374Z]      [exec] [INFO] dbp-ObjectServices ................................. SKIPPED
+[2026-01-29T06:20:46.374Z]      [exec] [INFO] ArrangementsAPI-Services ........................... SKIPPED
+[2026-01-29T06:20:46.374Z]      [exec] [INFO] PartyAPI-Services .................................. SKIPPED
+[2026-01-29T06:20:46.374Z]      [exec] [INFO] dbp-testscripts .................................... SKIPPED
+[2026-01-29T06:20:46.374Z]      [exec] [INFO] forexservices ...................................... SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] SavingsPotAPI-Services ............................. SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] Temenos ............................................ SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] WealthServices ..................................... SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] bulkpaymentservices ................................ SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] tradefinanceservices ............................... SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] dbp-customerdetailsservice ......................... SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] dbp-chequemanagementservices ....................... SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] UserManagementAPI-Services ......................... SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] TransactionAdviceAPI-Services ...................... SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] TransactionAdviceBackendDelegateAPIImpl ............ SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] visaintegrationapi-services ........................ SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] AccountAggregation-Services ........................ SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] FinanceManagement-Services ......................... SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] ConsentManagement .................................. SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] ServiceRequest-Services ............................ SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] dbp-billPay-enrollment ............................. SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] dbp-qrPayment-enrollment ........................... SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] dbp-P2P-enrollment ................................. SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] HoldingsAPI-Services ............................... SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] dbp-checkManagement ................................ SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] DocManagementApi-Services .......................... SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] eum-mfaservices .................................... SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] externalusermanagment .............................. SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] utility ............................................ SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] dbp-authservices ................................... SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] alertsmanagement ................................... SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] notifications ...................................... SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] T24Common .......................................... SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] CampaignDeliveryEngine ............................. SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] CampaignJWTGeneration .............................. SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] CampaignEngine ..................................... SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] WealthOrderServices ................................ SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] PortfolioServicing ................................. SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] CardManagement-Services ............................ SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] contentmanagement .................................. SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] dbp-cardlesscash ................................... SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] Kony Digital Banking Artifacts Manager ............. SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] DBPArrangementMicroServices ........................ SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] tradesupplyfinance-services ........................ SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] SecureMessages ..................................... SKIPPED
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] ------------------------------------------------------------------------
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] BUILD FAILURE
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] ------------------------------------------------------------------------
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] Total time: 7.677 s
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] Finished at: 2026-01-29T06:20:46Z
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] Final Memory: 25M/90M
+[2026-01-29T06:20:46.375Z]      [exec] [INFO] ------------------------------------------------------------------------
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.6.1:compile (default-compile) on project DBPJWTGeneration: Compilation failure: Compilation failure: 
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[20,32] package org.apache.logging.log4j does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[21,32] package org.apache.logging.log4j does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[29,35] package com.konylabs.middleware.api does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[30,35] package com.konylabs.middleware.api does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[31,53] package com.konylabs.middleware.api.processor.manager does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[32,42] package com.konylabs.middleware.controller does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[33,39] package com.konylabs.middleware.ehcache does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[34,39] package com.konylabs.middleware.ehcache does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[35,42] package com.konylabs.middleware.exceptions does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[40,26] cannot find symbol
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   symbol:   class Logger
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.TemenosUtils
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[139,67] cannot find symbol
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.TemenosUtils
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[175,60] cannot find symbol
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.TemenosUtils
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[217,60] cannot find symbol
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   symbol:   class FabricRequestManager
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.TemenosUtils
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[235,42] cannot find symbol
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   symbol:   class ServicesManager
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.TemenosUtils
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[274,51] cannot find symbol
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.TemenosUtils
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[314,51] cannot find symbol
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   symbol:   class FabricRequestManager
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.TemenosUtils
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[335,41] cannot find symbol
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   symbol:   class ServicesManager
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.TemenosUtils
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[378,42] cannot find symbol
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.TemenosUtils
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[416,42] cannot find symbol
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   symbol:   class FabricRequestManager
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.TemenosUtils
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[429,35] cannot find symbol
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.TemenosUtils
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[441,31] cannot find symbol
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   symbol:   class ServicesManager
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.TemenosUtils
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[461,41] cannot find symbol
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.TemenosUtils
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/TemenosUtils.java:[485,36] cannot find symbol
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.TemenosUtils
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/AuthCertificate.java:[12,32] package org.apache.logging.log4j does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/AuthCertificate.java:[13,32] package org.apache.logging.log4j does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/AuthCertificate.java:[17,42] package com.konylabs.middleware.controller does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/AuthCertificate.java:[20,24] cannot find symbol
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   symbol:   class Logger
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.AuthCertificate
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/GetCertifcateKeys.java:[16,32] package org.apache.logging.log4j does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/GetCertifcateKeys.java:[17,32] package org.apache.logging.log4j does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/GetCertifcateKeys.java:[24,42] package com.konylabs.middleware.controller does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/GetCertifcateKeys.java:[25,42] package com.konylabs.middleware.dataobject does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/GetCertifcateKeys.java:[26,42] package com.konylabs.middleware.dataobject does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/GetCertifcateKeys.java:[27,42] package com.konylabs.middleware.dataobject does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/AuthCertificate.java:[43,41] cannot find symbol
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.AuthCertificate
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/AuthCertificate.java:[63,39] cannot find symbol
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.AuthCertificate
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/AuthCertificate.java:[74,48] cannot find symbol
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.AuthCertificate
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/GetCertifcateKeys.java:[33,30] cannot find symbol
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   symbol:   class Logger
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.GetCertifcateKeys
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/GetCertifcateKeys.java:[112,51] cannot find symbol
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.GetCertifcateKeys
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/GetCertifcateKeys.java:[125,71] cannot find symbol
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.GetCertifcateKeys
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/GetCertifcateKeys.java:[182,56] cannot find symbol
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.GetCertifcateKeys
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/GetPublicKeyOperation.java:[10,38] package com.konylabs.middleware.common does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/GetPublicKeyOperation.java:[11,42] package com.konylabs.middleware.controller does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/GetPublicKeyOperation.java:[12,42] package com.konylabs.middleware.controller does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/GetPublicKeyOperation.java:[13,42] package com.konylabs.middleware.dataobject does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/GetPublicKeyOperation.java:[14,42] package com.konylabs.middleware.dataobject does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/GetPublicKeyOperation.java:[15,42] package com.konylabs.middleware.dataobject does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/GetPublicKeyOperation.java:[16,42] package com.konylabs.middleware.dataobject does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/GetPublicKeyOperation.java:[22,47] cannot find symbol
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   symbol: class JavaService2
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/GetPublicKeyOperation.java:[28,64] cannot find symbol
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.GetPublicKeyOperation
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/GetPublicKeyOperation.java:[28,95] cannot find symbol
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   symbol:   class DataControllerResponse
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.GetPublicKeyOperation
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/GetPublicKeyOperation.java:[42,25] cannot find symbol
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   symbol:   class Record
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.GetPublicKeyOperation
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/GetPublicKeyOperation.java:[42,48] cannot find symbol
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.GetPublicKeyOperation
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/Authentication.java:[17,32] package org.apache.logging.log4j does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/Authentication.java:[18,32] package org.apache.logging.log4j does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/Authentication.java:[21,35] package com.konylabs.middleware.api does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/Authentication.java:[22,35] package com.konylabs.middleware.api does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/Authentication.java:[24,45] package com.konylabs.middleware.api.processor does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/Authentication.java:[25,42] package com.konylabs.middleware.controller does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/Authentication.java:[26,42] package com.konylabs.middleware.exceptions does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/Authentication.java:[38,30] cannot find symbol
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   symbol:   class Logger
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.Authentication
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/Authentication.java:[53,36] cannot find symbol
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.Authentication
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/Authentication.java:[272,39] cannot find symbol
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.Authentication
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/Authentication.java:[300,41] cannot find symbol
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.Authentication
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/Authentication.java:[300,107] cannot find symbol
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   symbol:   class MiddlewareException
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.Authentication
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[19,32] package org.apache.logging.log4j does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[20,32] package org.apache.logging.log4j does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[25,35] package com.konylabs.middleware.api does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[26,35] package com.konylabs.middleware.api does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[27,35] package com.konylabs.middleware.api does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[28,42] package com.konylabs.middleware.controller does not exist
+[2026-01-29T06:20:46.375Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[29,42] package com.konylabs.middleware.dataobject does not exist
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[30,42] package com.konylabs.middleware.dataobject does not exist
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[31,42] package com.konylabs.middleware.dataobject does not exist
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[32,42] package com.konylabs.middleware.dataobject does not exist
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[33,39] package com.konylabs.middleware.ehcache does not exist
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[34,39] package com.konylabs.middleware.ehcache does not exist
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[35,39] package com.konylabs.middleware.session does not exist
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[39,30] cannot find symbol
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   symbol:   class Logger
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[65,23] cannot find symbol
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   symbol:   class Result
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[87,52] cannot find symbol
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   symbol:   class Result
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[119,53] cannot find symbol
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[119,23] cannot find symbol
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   symbol:   class Result
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[207,58] cannot find symbol
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[207,24] cannot find symbol
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   symbol:   class OperationData
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[232,60] cannot find symbol
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[232,91] cannot find symbol
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   symbol:   class OperationData
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[232,24] cannot find symbol
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   symbol:   class ServiceRequest
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[312,44] cannot find symbol
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   symbol:   class Record
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[335,44] cannot find symbol
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   symbol:   class Result
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[356,65] cannot find symbol
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   symbol:   class DataControllerRequest
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[390,50] cannot find symbol
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   symbol:   class Session
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[411,55] cannot find symbol
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   symbol:   class Session
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[448,51] cannot find symbol
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   symbol:   class Record
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[476,89] cannot find symbol
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   symbol:   class Logger
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[511,44] cannot find symbol
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   symbol:   class Param
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[511,57] cannot find symbol
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   symbol:   class Logger
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[537,45] cannot find symbol
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   symbol:   class Record
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[537,60] cannot find symbol
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   symbol:   class Logger
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[571,45] cannot find symbol
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   symbol:   class Result
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/DBPJWTGeneration/src/main/java/com/infinity/dbx/dbp/jwt/auth/utils/CommonUtils.java:[571,60] cannot find symbol
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   symbol:   class Logger
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   location: class com.infinity.dbx.dbp.jwt.auth.utils.CommonUtils
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] -> [Help 1]
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] 
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] 
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] For more information about the errors and possible solutions, please read the following articles:
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] 
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR] After correcting the problems, you can resume the build with the command
+[2026-01-29T06:20:46.376Z]      [exec] [ERROR]   mvn <goals> -rf :DBPJWTGeneration
+[2026-01-29T06:20:46.945Z]      [exec] Result: 1
+[2026-01-29T06:20:46.945Z] 
+[2026-01-29T06:20:46.945Z] update-digital_banking_fabric_source-jars:
+[2026-01-29T06:20:46.945Z]      [echo] Updating JARs from /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/release/binaries/ to /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Fabric/SampleApp/Apps/_JARs/. Only jars that already exist in /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Fabric/SampleApp/Apps/_JARs/ will be updated if newer.
+[2026-01-29T06:20:46.945Z] 
+[2026-01-29T06:20:46.945Z] BUILD FAILED
+[2026-01-29T06:20:46.945Z] /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/build.xml:33: /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/Hook/digital_banking_fabric_source/release/binaries does not exist.
+[2026-01-29T06:20:46.945Z] 
+[2026-01-29T06:20:46.945Z] Total time: 20 seconds
+[Pipeline] }
+[Pipeline] // nodejs
+[Pipeline] stage
+[Pipeline] { (Prepare Environment for actual Build Run)
+[Pipeline] dir
+[2026-01-29T06:20:47.372Z] Running in /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/CustomHooks
+[Pipeline] {
+[Pipeline] writeFile
+[Pipeline] }
+[Pipeline] // dir
+[Pipeline] sh
+[2026-01-29T06:20:48.063Z] + set +xe
+[Pipeline] dir
+[2026-01-29T06:20:48.145Z] Running in /home/jenkins/workspace/SampleApp/Fabric/Builds/buildFabricApp/fab_ws/SampleApp/CustomHooks
+[Pipeline] {
+[Pipeline] sh
+[2026-01-29T06:20:48.557Z] + set +xe
+[Pipeline] }
+[Pipeline] // dir
+[Pipeline] sh
+[2026-01-29T06:20:49.044Z] + set +xe
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // dir
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // withEnv
+[Pipeline] }
+[Pipeline] // ws
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] }
+[2026-01-29T06:20:50.046Z] 
+[Pipeline] // ansiColor
+[Pipeline] }
+[Pipeline] // timestamps
+[Pipeline] End of Pipeline
+Also:   hudson.remoting.ProxyException: org.jenkinsci.plugins.workflow.actions.ErrorAction$ErrorId: ba998ec0-42ed-4a29-8244-b0690aac298d
+hudson.remoting.ProxyException: com.kony.appfactory.helper.AppFactoryException: Hook build execution failed!!
+	at com.kony.appfactory.visualizer.customhooks.CustomHook.processPipeline(CustomHook.groovy:108)
+	at ___cps.transform___(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:238)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.sandbox.DefaultInvoker.constructorCall(DefaultInvoker.java:25)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.LoggingInvoker.constructorCall(LoggingInvoker.java:122)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.dispatchOrArg(FunctionCallBlock.java:100)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.FunctionCallBlock$ContinuationImpl.fixArg(FunctionCallBlock.java:85)
+	at jdk.internal.reflect.GeneratedMethodAccessor423.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.ContinuationPtr$ContinuationImpl.receive(ContinuationPtr.java:72)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.impl.ConstantBlock.eval(ConstantBlock.java:21)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.Next.step(Next.java:83)
+	at PluginClassLoader for workflow-cps//com.cloudbees.groovy.cps.Continuable.run0(Continuable.java:147)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.SandboxContinuable.access$001(SandboxContinuable.java:17)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.SandboxContinuable.run0(SandboxContinuable.java:49)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThread.runNextChunk(CpsThread.java:180)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup.run(CpsThreadGroup.java:422)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:330)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsThreadGroup$2.call(CpsThreadGroup.java:294)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService.lambda$wrap$4(CpsVmExecutorService.java:140)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at hudson.remoting.SingleLaneExecutorService$1.run(SingleLaneExecutorService.java:139)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
+	at jenkins.util.ErrorLoggingExecutorService.lambda$wrap$0(ErrorLoggingExecutorService.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.call(CpsVmExecutorService.java:53)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService$1.call(CpsVmExecutorService.java:50)
+	at org.codehaus.groovy.runtime.GroovyCategorySupport$ThreadCategoryInfo.use(GroovyCategorySupport.java:136)
+	at org.codehaus.groovy.runtime.GroovyCategorySupport.use(GroovyCategorySupport.java:275)
+	at PluginClassLoader for workflow-cps//org.jenkinsci.plugins.workflow.cps.CpsVmExecutorService.lambda$categoryThreadFactory$0(CpsVmExecutorService.java:50)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Finished: FAILURE
